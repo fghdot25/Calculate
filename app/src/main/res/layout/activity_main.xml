@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/color_main_back"
+    android:baselineAligned="false"
+    tools:context="projects.talga.kz.calculate.MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="16dp"
+        android:background="@color/color_main_back"
+        android:orientation="vertical"
+        android:padding="2dp">
+
+        <Button
+            android:id="@+id/midterm_button"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="8dp"
+            android:layout_marginTop="8dp"
+            android:layout_weight="1"
+            android:background="@color/back_color_01"
+            android:fontFamily="sans-serif-condensed"
+            android:onClick="goToMidterm"
+            android:text="Midterms"
+            android:textAllCaps="true"
+            android:textColor="#FFFFFF"
+            android:textSize="28sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="8dp"
+            android:layout_marginTop="8dp"
+            android:layout_weight="1"
+            android:background="@color/back_color_02"
+            android:fontFamily="sans-serif-condensed"
+            android:text="GPA"
+            android:textAllCaps="true"
+            android:textColor="#FFFFFF"
+            android:textSize="28sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="8dp"
+            android:layout_marginTop="8dp"
+            android:layout_weight="1"
+            android:background="@color/back_color_03"
+            android:fontFamily="sans-serif-condensed"
+            android:text="Converter"
+            android:textAllCaps="true"
+            android:textColor="#FFFFFF"
+            android:textSize="28sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="8dp"
+            android:layout_marginTop="8dp"
+            android:layout_weight="1"
+            android:background="@color/back_color_04"
+            android:fontFamily="sans-serif-condensed"
+            android:text="Attendance"
+            android:textAllCaps="true"
+            android:textColor="#FFFFFF"
+            android:textSize="28sp"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+</LinearLayout>
